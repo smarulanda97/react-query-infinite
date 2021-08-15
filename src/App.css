@@ -1,0 +1,77 @@
+h1 {
+  padding: .5rem 0 1rem 0;
+  text-transform: uppercase;
+}
+
+.loading {
+  top: 15px;
+  right: 15px;
+  color: black;
+  position: fixed;
+  font-weight: bold;
+  padding: .4rem 1rem;
+  background: goldenrod;
+}
+
+.scroll-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scroll-section__item {
+  width: 49%;
+  height: 70vh;
+  overflow: auto;
+}
+
+@media (max-width: 767px) {
+  .scroll-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .scroll-section__item {
+    width: 100%;
+  }
+
+  .scroll-section__item:last-child {
+    margin-top: 3rem;
+  }
+}
+
+.list {
+  padding: 0 1rem;
+  list-style: none;
+}
+
+.list__item {
+  border: 1px solid;
+  padding-top: .2rem;
+  padding-left: 1rem;
+  padding-bottom: .8rem;
+  margin-bottom: 1rem;
+}
+
+.list__name {
+  display: inline-block;
+}
+
+.list__detail {
+  padding-left: 1rem;
+}
+
+.list__detail p {
+  margin: .3rem
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title:not(h1) {
+  margin: 0 auto 3rem auto;
+  max-width: 80%;
+  padding-bottom: .8rem;
+  border-bottom: 1px solid;
+}
