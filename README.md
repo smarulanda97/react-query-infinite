@@ -6,12 +6,12 @@ You can take pieces of this code how reference for your projects.
 
 Feel free to contribute with this project, make corrections and teach your good development practices.
 
-You can see the app in https://petgram.smarulanda97.vercel.app
+You can see the app in https://react-query-infinite.vercel.app/
 
 ![Screenshot](./.readme-statics/screenshot.png)
 
 ## IMPORTANT
-- You can see the app in https://petgram.smarulanda97.vercel.app
+- You can see the app in https://react-query-infinite.vercel.app/
 - Required Node.js >= 12
 
 ## LIBRARIES
